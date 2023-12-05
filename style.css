@@ -28,12 +28,29 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+
 }
 
 #map {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 100%;
+    width: 80%;
+    transition: width 0.5s;
     background-color: #0d1938;
+    margin: 0em 1em 0em 1em;
+}
+
+#panel {
+  background-color: #0d111b;
+  padding: 1em;
+  margin-right: 1em;
+  width: 20%;
+  transition: width 0.5s;
+}
+
+.main-container {
+  width:  100%;
+  height: 97vh;
+}
+
+.flex-container {
+  display: flex;
 }
